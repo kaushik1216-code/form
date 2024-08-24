@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="styles.css">
+	<title>fitZ</title>
+</head>
+<body>
+	<div class="container">
+		<form method="post" action="" name="contact-form">
+			<h2 style="text-align: center; color: aliceblue;">Please fill the form</h2>
+			<input type="text" class="input-box" name="name" placeholder="Name" >
+			
+            <div class="gender-group">
+				<label style="color:white;for="gender">GENDER:</label>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label style="color:white;for="male ">Male</label>
+					<input type="radio" id="female" name="gender" value="female">
+					<label style="color:white;for="female">Female</label><br><br>
+
+			</div>
+            
+			<input type="text" class="input-box" name="phnumber" placeholder="Moblie Number">
+			<input type="email" class="input-box" name="email" placeholder="Email">
+            <input type="text" class="input-box" name="height" placeholder="Height">
+            <input type="text" class="input-box" name="weight" placeholder="Weight">
+			<textarea name="message" class="input-box" placeholder="type about Your ('goal') "></textarea>
+			<input type="submit" value="Submit" id="submit">
+		</form>
+		<div id="loading">Submitting, please wait...</div>
+	</div>
+
+	<script src="jack.js"></script>
+</body>
+</html>
